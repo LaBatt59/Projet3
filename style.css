@@ -1,0 +1,118 @@
+.Rotation90:hover
+  {
+    rotate: 90deg;
+    transition: 1s ease-in-out;
+}
+
+.Rotation90
+ {
+    margin-left: 40%;
+}
+
+.lol
+ {
+
+    margin-top: 10%;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width:600px) 
+{
+    .displayH1 {
+        display: block;
+    }
+
+    header,
+    .h1base,
+    .mdr,
+    footer {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width:1000px) 
+{
+    ul,
+    li,
+    header,
+    h1,
+    footer {
+        display: none;
+    }
+
+    .displayH1,
+    .parcours {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1000px) 
+{
+    body {
+        background-color: yellow;
+    }
+
+    .displayH1 {
+        display: none;
+    }
+}
+
+.foret
+{
+    padding: 100px;
+    margin: 100px;
+    display: flex;
+    flex-direction: center;
+}
+
+.foret
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    animation: move 5s infinite ;
+}
+
+
+@keyframes move 
+{
+    0% {
+        transform: translate(300px,200px);
+    }
+    50% {
+        transform: translate(400px,200px)
+    }
+    100% {
+        transform: translate(600px,300px);
+    }
+
+}
+
+.Bouton 
+{
+    display: flex;
+    justify-content: space-around; 
+    
+} 
+
+.Bouton button 
+{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 30%;
+    background-color: rgba(255, 255, 255, 0.24);
+
+}
+
+button:hover 
+{
+    background-color: black;
+    transition: background-color 0.8s;
+    color: white;
+}
+    / zoom:110%; */
+    
