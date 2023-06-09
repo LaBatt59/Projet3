@@ -1,5 +1,5 @@
 .Rotation90:hover
-  {
+{
     rotate: 90deg;
     transition: 1s ease-in-out;
 }
